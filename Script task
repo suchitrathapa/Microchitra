@@ -1,0 +1,12 @@
+# script to display my details in R language
+x=c("Suchitra Thapa","suchitrathapa69@gmail.com","@suchitra","Genomics","Public Health and Genomics Epidemiology")
+View(x)
+str(x)
+
+# Script to display my details in Python
+Name="Suchitra Thapa"
+Email="suuchitrathapa69@gmail.com"
+Slackusername="@suchitra"
+Biostack="Genomics"
+Biostack="Public Health and genomic epidemiology"
+Print('Name','Email',
