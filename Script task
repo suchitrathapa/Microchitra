@@ -9,3 +9,24 @@ Email="suchitrathapa69@gmail.com"
 Slack="@suchitra"
 Biostack="Public Health and genomic epidemiology"
 Print('Name','Email','slack','Biostack')
+
+#bash script for the task
+#!/bin/bash
+
+#clone team repo
+git clone https://github.com/RitojaR/TeamHooke
+
+#make the directory accessible
+chmod +x TeamHooke
+
+#Change the directory to TeamHooke from current
+cd TeamHooke
+
+#create the header
+echo Name, Email, Slack_username, Biostack, Twitter_handle, Hamming_distance > HookeCSV.csv
+
+#Rscript
+for Rscript in *.R
+do
+        Rscript $Rscript >> HookeCSV.csv
+done
