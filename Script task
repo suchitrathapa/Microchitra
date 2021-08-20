@@ -5,8 +5,7 @@ str(x)
 
 # Script to display my details in Python
 Name="Suchitra Thapa"
-Email="suuchitrathapa69@gmail.com"
-Slackusername="@suchitra"
-Biostack="Genomics"
+Email="suchitrathapa69@gmail.com"
+Slack="@suchitra"
 Biostack="Public Health and genomic epidemiology"
-Print('Name','Email',
+Print('Name','Email','slack','Biostack')
